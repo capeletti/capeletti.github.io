@@ -24,3 +24,42 @@
     background-position: center;
     background-attachment: fixed;
 }
+.box{
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 8px;
+    width: 50%;
+    height: 50%;
+    min-height: 150px;
+    min-width: 150px;
+}
+
+#back-imagens-multiplas{
+    background-image: url('/pages/img/css-3.png');
+    background-repeat: no-repeat, no-repeat;
+    background-position: top left, bottom right;
+    background-size: 64px, 64px, 64px, 64px;
+}
+.imagens-hp{
+    background-image: url('/pages/img/casa\ 02.png'),
+    url('/pages/img/casa\ 03.png'),
+    url('/pages/img/casa\ 04.png'),
+    url('/pages/img/casa\ 05.png');
+
+    background-position:top left,
+    top right,
+    bottom left,
+    bottom right;
+
+    background-size: 64px,
+    64px,
+    64px,
+    64px;
+
+
+
+    background-repeat: no-repeat,
+     no-repeat,
+    no-repeat,
+    no-repeat;
+}
