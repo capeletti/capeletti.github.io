@@ -19,7 +19,7 @@ background-size: 100%;
     margin-bottom: 8px;
     border-top-left-radius: 16px;
     border-bottom-right-radius: 16px;
-    box-shadow: 8px 8px 16px rgb(255, 0, 255);
+    box-shadow: 8px 8px 16px rgb(0, 255, 255);
 }
 
 article{

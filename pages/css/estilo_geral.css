@@ -1,8 +1,39 @@
 body{
-    margin-left: 100px;
-    margin-right: 100px;
+    display: grid;
+    grid-gap: 16px;
+    grid-template-areas:
+    "header header header "
+    "aside main main "
+    "footer footer footer";
+    grid-template-columns: 20% auto auto;
+    grid-template-rows: auto 100vh auto;
+}
 
-    border: 1px dashed black;
-    border-radius:16px;
-    padding: 8px;
+
+footer{
+    border: 1px solid black;
+}
+footer:hover{
+    background-color: lightblue;
+}
+footer::after{
+    content: 'mensagem fixa';
+}
+header{
+    grid-area: header;
+}
+aside{
+    grid-area: aside;
+}
+main{
+    grid-area: main;
+}
+footer{
+    grid-area: footer;
+}
+
+header,aside,main,footer{
+    background-color: black;
+    color: rgb(0, 255, 255);
+    padding: 16px;
 }
