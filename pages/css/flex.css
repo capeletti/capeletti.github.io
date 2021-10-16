@@ -1,0 +1,22 @@
+header{
+    background-color: black;
+    color: rgb(255, 2, 255);
+}
+
+
+body{
+margin-left: 32px;
+margin-right: 32px;
+background-image: url(https://thumbs.dreamstime.com/b/nahtloses-muster-mit-geometrischen-verzierungen-blau-und-wei%C3%9F-vector-illustration-165829910.jpg);
+
+}
+
+.card,article{
+
+    border: 1px dashed blue;
+    background-color:rgba(00, 00, 255, .2);
+    padding: 16px;
+    margin-bottom: 8px;
+    border-top-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
