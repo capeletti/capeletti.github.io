@@ -2,15 +2,6 @@ header{
     background-color: black;
     color: rgb(255, 0, 255);
 }
-
-
-body{
-margin-left: 32px;
-margin-right: 32px;
-background-color: black;
-background-repeat: no-repeat;
-background-size: 100%;
-}
 .card,article{
     color: yellow;
     border: 1px solid lightgray;
